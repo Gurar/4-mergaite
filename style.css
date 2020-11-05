@@ -3,8 +3,91 @@
     padding: 0;
 }
 
-div {
-    width: 960px;
-    background-color: blueviolet;
-    margin-left: calc( (100% - 960px) / 2);
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #9E9E9E;
 }
+
+div {
+    width: 1170px;
+    margin-left: calc( (100% - 1170px) / 2);
+}
+
+    header {
+        display: inline-block;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+        header > img {
+            float: left;
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            float: right;
+            /* height: 80px; */
+        }
+
+           ul {
+                list-style: none;
+                /* line-height: 72px; */
+            }
+
+                li {
+                    display: inline-block;
+                    margin-right: 45px;
+                }
+
+                li:last-child {
+                    margin-right: 0;
+                }
+
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #9E9E9E;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+
+                    a:hover {
+                        color: #89C069;
+                    }
+
+                    li:last-child a {
+                        border: 3px solid #9E9E9E;
+                        padding: 8px 20px;
+                        border-radius: 20px;
+                        text-transform: uppercase;
+                    }
+
+                    li:last-child a:hover {
+                        border-color: #89C069;
+                    }
+    main {
+        padding-top: 50px;
+    }
+
+        main > div {
+            max-width: 50%;
+            float: left;
+        }
+
+            h1 {
+                display: inline-block;
+                font-size: 100px;
+                font-weight: 700;
+            }
+
+            p {
+                display: inline-block;
+                font-size: 32px;
+                padding-right: 30px;
+            }
+
+        main > img {
+            max-width: 50%;
+            float: right;
+        }
