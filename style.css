@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 960px;
+    background-color: blueviolet;
+    margin-left: calc( (100% - 960px) / 2);
+}
