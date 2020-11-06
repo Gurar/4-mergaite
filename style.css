@@ -69,7 +69,7 @@ div {
     }
 
         main > div {
-            width: 45%;
+            max-width: 45%;
             float: left;
             padding: 68.705px 0;
         }
@@ -88,6 +88,6 @@ div {
             }
 
         main > img {
-            width: 45%;
+            max-width: 45%;
             float: right;
         }
